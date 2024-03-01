@@ -8,7 +8,7 @@ int main(void)
     getchar();
     for (int i = 1; i <= T; i++)
     {
-        for (int j=0; j < T-i; j++)
+        for (int j = T; j > i; j--)
             printf(" ");
         for (int k = 0; k < i; k++)
             printf("*");
