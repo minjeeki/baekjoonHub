@@ -9,4 +9,4 @@ for tc in range(1, T + 1):
             result[idx] += 1
             num /= n_list[idx]
         result[idx] = str(result[idx])
-    print(f'#{tc} {" ".join(result)}')
+    print(f'#{tc}', *result)
